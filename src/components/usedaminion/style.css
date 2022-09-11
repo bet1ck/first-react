@@ -1,0 +1,102 @@
+.container__presentation{
+    padding-top: 175px;
+    display: flex;
+    margin-bottom: 130px;
+}
+
+.container__presentation__left__title{
+    display: block;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    color: #153051;
+}
+
+.container__presentation__left__text{
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #153051;
+    margin-bottom: 41px;
+}
+
+.container__presentation__left__title__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.container__presentation__left__content{
+    max-width: 407px;
+    width: 100%;
+    margin-right: 113px;
+}
+
+.container__presentation__left__list{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 190px;
+    margin-bottom: 40px;
+}
+
+.container__presentation__left__list:nth-child(5){
+    margin-bottom: 0;
+}
+
+.container__presentation__left__list:nth-child(6){
+    margin-bottom: 0;
+}
+
+.container__presentation__right__img{
+    max-width: 925px;
+    margin-top: -288px;
+    margin-right: -229px;
+}
+
+@media (max-width:320px) {
+    .container__presentation{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 40px;
+    }
+    
+    .container__presentation__left__title{
+        display: block;
+        text-align: center;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        color: #153051;
+    }
+
+    .container__presentation__left__text{
+        display: block;
+        text-align: center;
+        color: #153051;
+        margin-bottom: 21px;    
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .container__presentation__right__img{
+        max-width: 288px;
+        width: 100%;
+        margin-top: -146px;
+        margin-right: 0;
+    }
+
+    .container__presentation__left__list{
+        display: flex;
+        width: 100%;
+        max-width: 130px;
+    }
+
+    .container__presentation__left__img{
+        width: 100%;
+        max-width: 130px;
+    }
+}

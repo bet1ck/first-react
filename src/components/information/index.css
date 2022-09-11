@@ -1,0 +1,122 @@
+.title__section{
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    color: #153051;
+    margin-bottom: 50px;
+}
+
+.information__text{
+    display: block;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    color: #153051;
+    margin-bottom: 50px;
+}
+
+.information__text a{
+    text-decoration: none;
+    color: #2f74c8;
+}
+
+.information__text__search{
+   text-align: center;
+   margin-bottom: 154px;
+}
+
+.information__text__input{
+    width: 100%;
+    max-width: 359px;
+    height: 100%;
+    max-height: 52px;
+    background: #FFFFFF;
+    border: 2px solid #FFDB21;
+    border-radius: 4px;
+    padding-left: 22px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    outline: none;
+}
+
+.information__text__btn{
+    width: 171px;
+    height: 52px;
+    background: #FFDB21;
+    border-radius: 4px;
+    border: none;
+    margin-left: -10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+@media (max-width:320px) {
+    .title__section{
+        display: block;
+        text-align: center;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
+
+    .information__text{
+        display: block;
+        text-align: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+        color: #153051;
+        margin-bottom: 20px;
+    }
+    
+    .information__text__search{
+        margin-bottom: 40px;
+    }
+
+    .information__text__input{
+        width: 100%;
+        max-width: 173px;
+        height: 100%;
+        max-height: 44px;
+        background: #FFFFFF;
+        border: 2px solid #FFDB21;
+        border-radius: 4px;
+        padding-left: 15px;
+        padding-top: 11px;
+        padding-bottom: 12px;
+        padding-right: 15px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+        outline: none;
+        color: #6F8196;
+    }
+
+    .information__text__btn{
+        width: 115px;
+        height: 44px;
+        background: #FFDB21;
+        border-radius: 4px;
+        border: none;
+        margin-left: -10px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        color: #153051;
+        cursor: pointer;
+    }
+
+}
