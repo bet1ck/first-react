@@ -1,0 +1,105 @@
+.container__featur{
+    margin-right: 143px;
+}
+
+.container__featur__content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.container__featur__img{
+    margin-right: 120px;
+    width: 100%;
+    max-width: 270px;
+}
+
+.container__featur__subtitle{
+    display: block;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #153051;
+    margin-bottom: 20px;
+}
+
+.container__featur__text{
+    display: block;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    color: #153051;
+    margin-bottom: 30px;
+}
+
+.container__featur__desc{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4D627C;
+}
+
+.container__featur__content__img{
+    margin-right: 38px;
+}
+
+@media (max-width: 320px) {
+    .container__featur{
+        margin-right: 0px;
+    }
+
+    .container__featur__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+    
+    .container__featur__img{
+        margin: 0 auto;
+        margin-right: 120px;
+        width: 100%;
+        max-width: 270px;
+    }
+    
+    .container__featur__subtitle{
+        display: block;
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.44px;
+        color: #153051;
+        margin-bottom: 10px;
+    }
+    
+    .container__featur__text{
+        display: block;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #153051;
+        margin-bottom: 30px;
+    }
+    
+    .container__featur__desc{
+        text-align: center;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #4D627C;
+    }
+    
+    .container__featur__content__img{
+        margin-right: 38px;
+    }
+
+    .featur__content__show{
+        display: block;
+    }
+
+    .featur__content__hide{
+        display: none;
+    }
+}

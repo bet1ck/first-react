@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import './style.css';
 import ArrowUp from '../../images/footershevrontop.svg';
 import ArrowDown from '../../images/footershevronbottom.svg';
 import LogoFooter from '../../images/logofotter.svg';

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './style.css';
 import BurgerIcon from '../../images/burger.svg';
 import ArrowDown from '../../images/vectorbottom.svg';

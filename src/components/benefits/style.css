@@ -1,0 +1,200 @@
+.container__benefits__block__right{
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.container__benefits__right{
+    display: flex;
+    margin-right: 63px;
+}
+
+.container__benefits__icon__right{
+    margin-right: 30px;
+    margin-top: -72px;
+}
+
+.container__benefits__img__slider__left{
+    display: none;
+}
+
+.container__benefits__img__slider__right{
+    display: none;
+}
+
+.container__benefits__section_content__title{
+    display: block;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #153051;
+    margin-bottom: 20px;
+}
+
+.container__benefits__section_content__subtitle{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    color: #153051;
+    margin-bottom: 30px;
+}
+
+.container__benefits__section_content__block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.container__benefits__section__content__block__img{
+    margin-right: 20px;
+}
+
+.container__benefits__section_content__block__text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.44px;
+    color: #153051;
+}
+
+.container__benefits__section_content__text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4D627C;
+}
+
+.container__benefits__right__img{
+    width: 100%;
+    max-width: 745px;
+    margin-right: -364px;
+}
+
+.container__benefits__block__left{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.container__benefits__left__img{
+    width: 100%;
+    max-width: 769px;
+    margin-left: -375px;
+    margin-right: 206px;
+}
+
+.container__benefits__left{
+    display: flex;
+    align-items: center;
+    margin-right: -250px;
+}
+
+.container__benefits__icon__left{
+    margin-right: 30px;
+    margin-top: -160px;
+}
+
+@media (max-width:320px) {
+
+    .container__benefits__block__right{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 26px;
+    }
+    
+    .container__benefits__right{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .container__benefits__icon__right{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+    
+    .container__benefits__img{
+        width: 100%;
+        max-width: 170px;
+    }
+
+    .container__benefits__img__slider__left{
+        display: block;
+        width: 100%;
+        max-width: 34px;
+        height: 100%;
+        max-height: 16px;
+    }
+
+    .container__benefits__img__slider__right{
+        display: block;
+        width: 100%;
+        max-width: 34px;
+        height: 100%;
+        max-height: 16px;
+    }
+
+    .container__benefits__section__content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container__benefits__section_content__block{
+        display: flex;
+        margin-bottom: 30px;
+    }
+    
+    .container__benefits__section_content__title{
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #153051;
+        margin-bottom: 20px;
+    }
+    
+    .container__benefits__section_content__subtitle{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #153051;
+        margin-bottom: 30px;
+    }
+
+    .container__benefits__section_content__block{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    
+    .container__benefits__section__content__block__img{
+        margin-right: 0px;
+        width: 100%;
+        max-width: 36px;
+    }
+
+    .container__benefits__section_content__block__text{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #153051;
+    }
+
+    .container__benefits__section_content__text{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #4D627C;
+        margin-bottom: 26px;
+    }
+
+    .container__benefits__right__img{
+        width: 100%;
+        margin: 0px;
+    }
+    
+
+    .benefits__block__hiden{
+        display: none;
+    }
+}
