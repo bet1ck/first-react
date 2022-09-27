@@ -193,11 +193,11 @@ const Footer = () => {
           </div>
 
           <div className="footer__copyright">
-            <span className="footer__copyright__text">
+            <span className="footer__copyright-text">
               Copyright © 2020 Daminion Software. All Rights Reserved
             </span>
-            <a className="footer__copyright__link" href="#">
-              <img className="footer__copyright__img" src={LogoFooter} alt="logofooter" />
+            <a href="#">
+              <img src={LogoFooter} alt="logofooter" />
             </a>
           </div>
         </div>

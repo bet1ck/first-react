@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './components/header';
+/*import Header from './components/header';
 
 import Inform from './components/information';
 import UseDaminion from './components/usedaminion';
@@ -15,14 +15,14 @@ import Featur from './components/featur';
 import Questions from './components/questions';
 import Usercomment from './components/usercomment';
 import Request from './components/request';
-
+*/
 import Footer from './components/footer';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      {/* <Inform />
+      {/* <Header />
+      <Inform />
       <UseDaminion />
       <Preview />
       <Need />
@@ -37,7 +37,7 @@ function App() {
       <Questions />
       <Usercomment />
       <Request /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
