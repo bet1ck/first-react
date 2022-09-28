@@ -1,10 +1,10 @@
 import './App.css';
-/*import Header from './components/header';
+import Header from './components/header';
 
 import Inform from './components/information';
 import UseDaminion from './components/usedaminion';
 import Preview from './components/preview';
-import Need from './components/need';
+/*import Need from './components/need';
 import Management from './components/management';
 import Comment from './components/comment';
 import Benefits from './components/benefits';
@@ -21,11 +21,11 @@ import Footer from './components/footer';
 function App() {
   return (
     <div className="App">
-      {/* <Header />
+      <Header />
       <Inform />
       <UseDaminion />
       <Preview />
-      <Need />
+      {/*<Need />
       <Management />
       <Comment />
       <Benefits />
@@ -36,7 +36,7 @@ function App() {
       <Featur />
       <Questions />
       <Usercomment />
-      <Request /> */}
+      <Request />*/}
       <Footer />
     </div>
   );

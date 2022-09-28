@@ -1,14 +1,4 @@
-.title__section{
-    display: block;
-    text-align: center;
-    font-weight: 900;
-    font-size: 60px;
-    line-height: 70px;
-    color: #153051;
-    margin-bottom: 50px;
-}
-
-.information__text{
+.information__subtitle{
     display: block;
     text-align: center;
     font-weight: 300;
@@ -18,17 +8,17 @@
     margin-bottom: 50px;
 }
 
-.information__text a{
+.information__subtitle-link{
     text-decoration: none;
     color: #2f74c8;
 }
 
-.information__text__search{
+.information__search{
    text-align: center;
    margin-bottom: 154px;
 }
 
-.information__text__input{
+.information__search-input{
     width: 100%;
     max-width: 359px;
     height: 100%;
@@ -46,7 +36,7 @@
     outline: none;
 }
 
-.information__text__btn{
+.information__search-btn{
     width: 171px;
     height: 52px;
     background: #FFDB21;
@@ -59,17 +49,42 @@
     cursor: pointer;
 }
 
-@media (max-width:320px) {
+@media (max-width:1024px) {
+    .title__section{
+        display: block;
+        text-align: center;
+        font-weight: 900;
+        font-size: 57px;
+        line-height: 70px;
+        color: #153051;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .information__subtitle{
+        display: block;
+        text-align: center;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 34px;
+        color: #153051;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:425px) {
     .title__section{
         display: block;
         text-align: center;
         font-weight: 500;
         font-size: 24px;
         line-height: 34px;
+        color: #153051;
         margin-bottom: 20px;
     }
 
-    .information__text{
+    .information__subtitle{
         display: block;
         text-align: center;
         font-weight: 400;
@@ -79,34 +94,39 @@
         color: #153051;
         margin-bottom: 20px;
     }
-    
-    .information__text__search{
-        margin-bottom: 40px;
+
+    .information__subtitle-link{
+        text-decoration: none;
+        color: #2f74c8;
     }
 
-    .information__text__input{
+    .information__search{
+        text-align: center;
+        margin-bottom: 66px;
+    }
+
+    .information__search-input{
         width: 100%;
-        max-width: 173px;
+        max-width: 177px;
         height: 100%;
         max-height: 44px;
         background: #FFFFFF;
         border: 2px solid #FFDB21;
         border-radius: 4px;
         padding-left: 15px;
-        padding-top: 11px;
-        padding-bottom: 12px;
+        padding-top: 10px;
+        padding-bottom: 11px;
         padding-right: 15px;
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
         letter-spacing: 0.25px;
         outline: none;
-        color: #6F8196;
     }
 
-    .information__text__btn{
-        width: 115px;
-        height: 44px;
+    .information__search-btn{
+        width: 113px;
+        height: 42px;
         background: #FFDB21;
         border-radius: 4px;
         border: none;
@@ -115,8 +135,6 @@
         font-size: 14px;
         line-height: 20px;
         letter-spacing: 0.1px;
-        color: #153051;
         cursor: pointer;
     }
-
 }
