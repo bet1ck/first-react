@@ -1,10 +1,10 @@
-.container__benefits__block__right{
+.container__benefits-block_right{
     display: flex;
     align-items: center;
     margin-bottom: 150px;
 }
 
-.container__benefits__right{
+.benefits__block-right{
     display: flex;
     margin-right: 63px;
 }
@@ -67,7 +67,7 @@
 .container__benefits__right__img{
     width: 100%;
     max-width: 745px;
-    margin-right: -364px;
+    margin-right: -368px;
 }
 
 .container__benefits__block__left{

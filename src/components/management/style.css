@@ -1,20 +1,19 @@
 .container__management{
-    width: 100%;
     margin-bottom: 130px;
 }
 
-.container__management__facilities{
+.container__management-wrapper{
     display: flex;
     justify-content: space-between;
     margin-bottom: 55px;
 }
 
-.container__management__facilities__chapter{
+.management__wrapper-content{
     width: 100%;
     max-width: 370px;
 }
 
-.container__management__facilities__img{
+.management__wrapper-content_img{
     display: block;
     margin: 0 auto;
     width: 100%;
@@ -22,7 +21,7 @@
     margin-bottom: 20px;
 }
 
-.container__management__facilities__title{
+.management__wrapper-content_title{
     display: block;
     font-weight: 300;
     font-size: 24px;
@@ -31,11 +30,11 @@
     text-align: center;
 }
 
-.container__management__facilities__title:nth-child(2){
+.management__wrapper-content_title:nth-child(2){
     margin-bottom: 10px;
 }
 
-.container__management__facilities__text{
+.management__wrapper-content_text{
     display: block;
     font-weight: 400;
     font-size: 20px;
@@ -44,38 +43,117 @@
     text-align: center;
 }
 
-.container__management__link{
+.container__management-block{
     text-align: center;
 }
 
-.container__management__img{
+.container__management-img{
     margin-right: 10px;
 }
 
-.container__management__text{
+.container__management-text{
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #4D627C;
 }
 
-@media (max-width:320px) {
+.container__management-link{
+    color: #2F74C8;
+    mix-blend-mode: normal;
+}
 
+@media (max-width:1024px) {
+    .container__management{
+        margin-bottom: 90px;
+    }
+}
+
+@media (max-width:768px) {
+    .container__management{
+        margin-bottom: 60px;
+    }
+    
+    .container__management-wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    
+    .management__wrapper-content{
+        width: 100%;
+        max-width: 370px;
+    }
+    
+    .management__wrapper-content_img{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 54px;
+        margin-bottom: 20px;
+    }
+    
+    .management__wrapper-content_title{
+        display: block;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 30px;
+        color: #153051;
+        text-align: center;
+    }
+    
+    .management__wrapper-content_text{
+        display: block;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #4D627C;
+        text-align: center;
+    }
+    
+    .container__management-block{
+        text-align: center;
+    }
+    
+    .container__management-img{
+        margin-right: 10px;
+    }
+    
+    .container__management-text{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #4D627C;
+    }
+    
+    .container__management-link{
+        color: #2F74C8;
+        mix-blend-mode: normal;
+    }
+}
+
+@media (max-width:425px) {
     .container__management{
         margin-bottom: 30px;
     }
-
-    .container__management__facilities{
+    
+    .container__management-wrapper{
         display: flex;
         flex-direction: column;
+        margin-bottom: 40px;
+    }
+    
+    .management__wrapper-content{
+        width: 100%;
+        max-width: 370px;
+        margin-bottom: 40px;
+    }
+
+    .management__wrapper-content:last-child{
         margin-bottom: 0px;
     }
-
-    .container__management__facilities__chapter{
-        margin-bottom:  40px;
-    }
-
-    .container__management__facilities__img{
+    
+    .management__wrapper-content_img{
         display: block;
         margin: 0 auto;
         width: 100%;
@@ -83,21 +161,17 @@
         margin-bottom: 20px;
     }
     
-    .container__management__facilities__title{
+    .management__wrapper-content_title{
         display: block;
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
-        letter-spacing: 0.1px;  
+        letter-spacing: 0.1px;
         color: #153051;
         text-align: center;
     }
-
-    .container__management__facilities__title:nth-child(2){
-        margin-bottom: 0;
-    }
-
-    .container__management__facilities__text{
+    
+    .management__wrapper-content_text{
         display: block;
         font-weight: 400;
         font-size: 12px;
@@ -105,16 +179,24 @@
         color: #4D627C;
         text-align: center;
     }
-
-    .container__management__img{
-        margin-right: 0;
+    
+    .container__management-block{
+        text-align: center;
     }
     
-    .container__management__text{
-        font-weight: 500;
-        font-size: 14px;
+    .container__management-img{
+        margin-right: 10px;
+    }
+    
+    .container__management-text{
+        font-weight: 400;
+        font-size: 12px;
         line-height: 20px;
-        letter-spacing: 0.1px;
         color: #4D627C;
+    }
+    
+    .container__management-link{
+        color: #2F74C8;
+        mix-blend-mode: normal;
     }
 }

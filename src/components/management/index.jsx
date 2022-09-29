@@ -7,33 +7,46 @@ import Plusik from '../../images/plusik.svg';
 
 const Management = () => {
   return (
-    <div class="container">
-        <div class="container__management">
-            <h2 class="title__section">Easy deployment & management <br /> <strong>for IT System Managers/Admins</strong></h2>
-        
-            <div class="container__management__facilities">
-                <div class="container__management__facilities__chapter">
-                    <img class="container__management__facilities__img" src={EasyConifuration} alt="#" />
-                    <span class="container__management__facilities__title">Easy configuration</span>
-                    <span class="container__management__facilities__text">We support both Active Directory and built-in Daminion user management.</span>
-                </div>
-                <div class="container__management__facilities__chapter">
-                    <img class="container__management__facilities__img" src={Backups} alt="#" />
-                    <span class="container__management__facilities__title">Company data is well protected with Scheduled Backups</span>
-                </div>
-                <div class="container__management__facilities__chapter">
-                    <img class="container__management__facilities__img" src={UsersCatalog} alt="#" />
-                    <span class="container__management__facilities__title">Your involvment is not needed to add or remove users: catalog admin can do it easily.</span>
-                </div>
-            </div>
+    <div className="container">
+      <div className="container__management">
+        <h2 className="title__section">
+          Easy deployment & management <br /> <strong>for IT System Managers/Admins</strong>
+        </h2>
 
-            <div class="container__management__link">
-                <img class="container__management__img" src={Plusik} alt="#" />
-                <span class="container__management__text"><a class="container__management__text" href="#">Click here</a> to expand all the benefits</span>
-            </div>
+        <div className="container__management-wrapper">
+          <div className="management__wrapper-content">
+            <img className="management__wrapper-content_img" src={EasyConifuration} alt="#" />
+            <span className="management__wrapper-content_title">Easy configuration</span>
+            <span className="management__wrapper-content_text">
+              We support both Active Directory and built-in Daminion user management.
+            </span>
+          </div>
+          <div className="management__wrapper-content">
+            <img className="management__wrapper-content_img" src={Backups} alt="#" />
+            <span className="management__wrapper-content_title">
+              Company data is well protected with Scheduled Backups
+            </span>
+          </div>
+          <div className="management__wrapper-content">
+            <img className="management__wrapper-content_img" src={UsersCatalog} alt="#" />
+            <span className="management__wrapper-content_title">
+              Your involvment is not needed to add or remove users: catalog admin can do it easily.
+            </span>
+          </div>
         </div>
-    </div>
-  )
-}
 
-export default Management
+        <div className="container__management-block">
+          <img className="container__management-img" src={Plusik} alt="#" />
+          <span className="container__management-text">
+            <a className="container__management-link" href="#">
+              Click here
+            </a>{' '}
+            to expand all the benefits
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Management;
