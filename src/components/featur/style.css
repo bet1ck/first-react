@@ -2,19 +2,19 @@
     margin-right: 143px;
 }
 
-.container__featur__content{
+.container__featur-block{
     display: flex;
     align-items: center;
     margin-bottom: 150px;
 }
 
-.container__featur__img{
+.container__featur-img{
     margin-right: 120px;
     width: 100%;
     max-width: 270px;
 }
 
-.container__featur__subtitle{
+.container__featur-subtitle{
     display: block;
     font-weight: 400;
     font-size: 48px;
@@ -23,7 +23,7 @@
     margin-bottom: 20px;
 }
 
-.container__featur__text{
+.container__featur-text{
     display: block;
     font-weight: 300;
     font-size: 24px;
@@ -32,74 +32,36 @@
     margin-bottom: 30px;
 }
 
-.container__featur__desc{
+.container__featur-desc{
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: #4D627C;
 }
 
-.container__featur__content__img{
+.featur__desc-img_first{
+    width: 100%;
+    max-width: 186px;
     margin-right: 38px;
 }
 
+.featur__desc-img_second{
+    width: 100%;
+    max-width: 58px;
+    margin-right: 38px;
+}
+
+.featur__desc-img_third{
+    width: 100%;
+    max-width: 160px;
+    margin-right: 38px;
+}
+
+.featur__desc-img_fourth{
+    width: 100%;
+    max-width: 47px;
+}
+
 @media (max-width: 320px) {
-    .container__featur{
-        margin-right: 0px;
-    }
 
-    .container__featur__content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 150px;
-    }
-    
-    .container__featur__img{
-        margin: 0 auto;
-        margin-right: 120px;
-        width: 100%;
-        max-width: 270px;
-    }
-    
-    .container__featur__subtitle{
-        display: block;
-        text-align: center;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 28px;
-        letter-spacing: 0.44px;
-        color: #153051;
-        margin-bottom: 10px;
-    }
-    
-    .container__featur__text{
-        display: block;
-        text-align: center;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
-        color: #153051;
-        margin-bottom: 30px;
-    }
-    
-    .container__featur__desc{
-        text-align: center;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 16px;
-        color: #4D627C;
-    }
-    
-    .container__featur__content__img{
-        margin-right: 38px;
-    }
-
-    .featur__content__show{
-        display: block;
-    }
-
-    .featur__content__hide{
-        display: none;
-    }
 }

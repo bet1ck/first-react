@@ -1,80 +1,99 @@
 import React from 'react';
 import './style.css';
-import Monsterdubina from '../../images/monsterdubina.svg';
+// import Monsterdubina from '../../images/monsterdubina.svg';
 import Searchelupacomp from '../../images/searchelupacomp.svg';
-import Windowlogin from '../../images/windowlogin.png';
+// import Windowlogin from '../../images/windowlogin.png';
 import LeftsoftWindow from '../../images/leftsoftwindow.png';
-import MonsterDoska from '../../images/mosterdoska.svg';
+// import MonsterDoska from '../../images/mosterdoska.svg';
 import Cutcosts from '../../images/cutcosts.svg';
-import SearchelupaComp from '../../images/searchelupacomp.svg';
+// import SearchelupaComp from '../../images/searchelupacomp.svg';
 import Softwindowright from '../../images/softwindowright.png';
 
+import Monsterbox from '../../images/monsterbox.svg';
+import SearcheLupaComp from '../../images/searchelupacomp.svg';
+import OrganizeWindow from '../../images/organizewindow.png';
+import Mosterdoska from '../../images/mosterdoska.svg';
 
 const Expertize = () => {
   return (
-    <div class="container">
-        <h2 class="title__section">Daminion’s expertize for your business</h2>
+    <div className="container">
+      <h2 className="title__section">Top 3 Daminion benefits</h2>
 
-        <div class="container__benefits__block__right container__benefits__block__show">
-            <div class="container__expertize__right">
-                <div class="container__expertize__icon__right">
-                    <img class="container__expertize__img" src={Monsterdubina} alt="#" />
-                </div>
-                <div class="container__expertize__section__content">
-                    <span class="container__expertize__section_content__title">Data security</span>
-                    <p class="container__expertize__section_content__subtitle">Daminion protects access to your data by roles and on the<br />file level. Be as granular as you like. Assign<br />Daminion-managed roles to your users. Roles will set and<br />control the user’s access to functionality any way you like. </p>
-                    <div  class="container__expertize__section_content__block">
-                        <img class="container__expertize__section__content__block__img" src={Searchelupacomp} alt="#" />
-                        <span  class="container__expertize__section_content__block__text">Searching for the right digital asset <br /> by tags is 100x times faster.
-                        </span>
-                    </div>
-                    <p class="container__expertize__section_content__text">Daminion role structure is as flexibleas you need it to be.</p>
-                </div>
+      <div className="container__benefits-block_right">
+        <div className="benefits__block-right">
+          <div className="benefits__section-icon_right">
+            <img className="benefits__icon-right" src={Monsterbox} alt="#" />
+          </div>
+          <div className="benefits__content-right">
+            <span className="benefits__content-title">Organize</span>
+            <p className="benefits__content-subtitle">
+              Daminion helps you organize all your digital media. Either automatically tag your
+              images, or for the most accurate manual control Daminion affords you the batch tagging
+              tools
+            </p>
+            <div className="benefits__content-block">
+              <img className="benefits__content-block_icon" src={SearcheLupaComp} alt="#" />
+              <span className="benefits__content-block_text">
+                Searching for the right digital asset by tags is 100x times faster.
+              </span>
             </div>
-            <img class="container__expertize__right__img" src={Windowlogin} alt="#" />
+            <p className="benefits__content-text">
+              Demotivated by manually going through all your files? What if you could narrow your
+              searches by using tags. It will radically increase your productivity and preserve your
+              sanity
+            </p>
+          </div>
         </div>
+        <div className="benefits__section-right">
+          <img className="benefits__section-img_right" src={OrganizeWindow} alt="" />
+        </div>
+      </div>
 
-        <div class="container__benefits__block__left container__benefits__block__hiden">
-
-            <img class="container__expertize__left__img" src={LeftsoftWindow} alt="#" />
-
-            <div class="container__expertize__left">
-                <div class="container__expertize__icon__left">
-                    <img class="container__expertize__img__left" src={MonsterDoska} alt="#" />
-                </div>
-                <div class="container__expertize__section__content">
-                    <span class="container__expertize__section_content__title">Geotagging</span>
-                    <p class="container__expertize__section_content__subtitle">Where in the world was Whaldo? Visualize on the map the actual locations your photos were taken. Or, if geodata is missing, just drag images to the map right inside Daminion. Done!</p>
-                </div>
+      <div className="container__benefits-block_left benefits__block__hiden">
+        <div className="benefits__section-left">
+          <img className="benefits__section-img_left" src={LeftsoftWindow} alt="" />
+        </div>
+        <div className="benefits__content-left">
+          <div className="benefits__section-icon_left">
+            <img className="benefits__icon-left" src={Mosterdoska} alt="" />
+          </div>
+          <div className="benefits__block-left">
+            <span className="benefits__content-title">Instant Presentation</span>
+            <p className="benefits__content-subtitle">
+              Time is crucial when you need to quickly present just the right media to your clients.
+            </p>
+            <div className="benefits__content-block">
+              <img className="benefits__content-block_icon" src={Searchelupacomp} alt="#" />
+              <span className="benefits__content-block_text">
+                Daminion allows you to instantly show them your expertise.
+              </span>
             </div>
-            
+            <p className="benefits__content-text">
+              Beat your competition with the fastest response.
+            </p>
+          </div>
         </div>
+      </div>
 
-        <div class="container__benefits__block__right container__benefits__block__hiden">
-            <div class="container__expertize__right">
-                <div class="container__expertize__icon__right">
-                    <img class="container__expertize__img" src={Cutcosts} alt="#" />
-                </div>
-                <div class="container__expertize__section__content">
-                    <span class="container__expertize__section_content__title">Cut Costs</span>
-                    <p class="container__expertize__section_content__subtitle">Are you using the tools for collaboration that were<br />not even designed for collaboration?</p> 
-                    <div  class="container__expertize__section_content__block">
-                        <img class="container__expertize__section__content__block__img" src={SearchelupaComp} alt="#" />
-                        <span  class="container__expertize__section_content__block__text">Marketers and designers can collaborate<br />x10 times faster by using Daminion. </span>
-                    </div>
-                    <div  class="container__expertize__section_content__block">
-                        <img class="container__expertize__section__content__block__img" src={SearchelupaComp} alt="#" />
-                        <span  class="container__expertize__section_content__block__text">Email or messengers hide your works among thousands<br />of other, unrelatedand irrelevant messages.</span>
-                    </div>
-                    <p class="container__expertize__section_content__text">But with Daminion’s built-in tools, manage document versions,<br />comment and annotate your work, collaborate away – all in one place.</p> 
-                </div>
-            </div>
-            <img class="container__expertize__right__img" src={Softwindowright} alt="#" />
+      <div className="container__benefits-block_right">
+        <div className="benefits__block-right">
+          <div className="benefits__section-icon_right">
+            <img className="benefits__icon-right" src={Cutcosts} alt="#" />
+          </div>
+          <div className="benefits__content-right">
+            <span className="benefits__content-title">Cut Costs</span>
+            <p className="benefits__content-subtitle">
+              Use the existing digital assets without having to recreate them every time. Daminion
+              will let you know you already have them.
+            </p>
+          </div>
         </div>
+        <div className="benefits__section-right">
+          <img className="benefits__section-img_right" src={Softwindowright} alt="" />
+        </div>
+      </div>
+    </div>
+  );
+};
 
-    </div>        
-  )
-}
-
-export default Expertize
-
+export default Expertize;

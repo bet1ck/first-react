@@ -16,85 +16,76 @@ const Benefits = () => {
 
       <div className="container__benefits-block_right">
         <div className="benefits__block-right">
-          <div className="container__benefits__icon__right">
-            <img className="container__benefits__img" src={Monsterbox} alt="#" />
+          <div className="benefits__section-icon_right">
+            <img className="benefits__icon-right" src={Monsterbox} alt="#" />
           </div>
-          <div className="container__benefits__section__content">
-            <span className="container__benefits__section_content__title">Organize</span>
-            <p className="container__benefits__section_content__subtitle">
-              Daminion helps you organize all your
-              <br /> digital media. Either automatically tag
-              <br /> your images, or for the most accurate
-              <br /> manual control Daminion affords you
-              <br /> the batch tagging tools
+          <div className="benefits__content-right">
+            <span className="benefits__content-title">Organize</span>
+            <p className="benefits__content-subtitle">
+              Daminion helps you organize all your digital media. Either automatically tag your
+              images, or for the most accurate manual control Daminion affords you the batch tagging
+              tools
             </p>
-            <div className="container__benefits__section_content__block">
-              <img
-                className="container__benefits__section__content__block__img"
-                src={SearcheLupaComp}
-                alt="#"
-              />
-              <span className="container__benefits__section_content__block__text">
-                Searching for the right digital asset <br /> by tags is 100x times faster.
+            <div className="benefits__content-block">
+              <img className="benefits__content-block_icon" src={SearcheLupaComp} alt="#" />
+              <span className="benefits__content-block_text">
+                Searching for the right digital asset by tags is 100x times faster.
               </span>
             </div>
-            <p className="container__benefits__section_content__text">
-              Demotivated by manually going through all your
-              <br /> files? What if you could narrow your searches by
-              <br /> using tags. It will radically increase your
-              <br /> productivity and preserve your sanity
+            <p className="benefits__content-text">
+              Demotivated by manually going through all your files? What if you could narrow your
+              searches by using tags. It will radically increase your productivity and preserve your
+              sanity
             </p>
           </div>
         </div>
-        <img className="container__benefits__right__img" src={OrganizeWindow} alt="" />
+        <div className="benefits__section-right">
+          <img className="benefits__section-img_right" src={OrganizeWindow} alt="" />
+        </div>
       </div>
 
-      <div className="container__benefits__block__left benefits__block__hiden">
-        <img className="container__benefits__left__img" src={LeftsoftWindow} alt="" />
-
-        <div className="container__benefits__left">
-          <div className="container__benefits__icon__left">
-            <img className="container__benefits__img__left" src={Mosterdoska} alt="" />
+      <div className="container__benefits-block_left benefits__block__hiden">
+        <div className="benefits__section-left">
+          <img className="benefits__section-img_left" src={LeftsoftWindow} alt="" />
+        </div>
+        <div className="benefits__content-left">
+          <div className="benefits__section-icon_left">
+            <img className="benefits__icon-left" src={Mosterdoska} alt="" />
           </div>
-          <div className="container__benefits__section__content">
-            <span className="container__benefits__section_content__title">
-              Instant Presentation
-            </span>
-            <p className="container__benefits__section_content__subtitle">
-              Time is crucial when you need to quickly <br /> present just the right media to your
-              clients.
+          <div className="benefits__block-left">
+            <span className="benefits__content-title">Instant Presentation</span>
+            <p className="benefits__content-subtitle">
+              Time is crucial when you need to quickly present just the right media to your clients.
             </p>
-            <div className="container__benefits__section_content__block">
-              <img
-                className="container__benefits__section__content__block__img"
-                src={Searchelupacomp}
-                alt="#"
-              />
-              <span className="container__benefits__section_content__block__text">
-                Daminion allows you to instantly <br /> show them your expertise.
+            <div className="benefits__content-block">
+              <img className="benefits__content-block_icon" src={Searchelupacomp} alt="#" />
+              <span className="benefits__content-block_text">
+                Daminion allows you to instantly show them your expertise.
               </span>
             </div>
-            <p className="container__benefits__section_content__text">
+            <p className="benefits__content-text">
               Beat your competition with the fastest response.
             </p>
           </div>
         </div>
       </div>
 
-      <div className="container__benefits-block_right benefits__block__hiden">
+      <div className="container__benefits-block_right">
         <div className="benefits__block-right">
-          <div className="container__benefits__icon__right">
-            <img className="container__benefits__img" src={Cutcosts} alt="#" />
+          <div className="benefits__section-icon_right">
+            <img className="benefits__icon-right" src={Cutcosts} alt="#" />
           </div>
-          <div className="container__benefits__section__content">
-            <span className="container__benefits__section_content__title">Cut Costs</span>
-            <p className="container__benefits__section_content__subtitle">
+          <div className="benefits__content-right">
+            <span className="benefits__content-title">Cut Costs</span>
+            <p className="benefits__content-subtitle">
               Use the existing digital assets without having to recreate them every time. Daminion
-              will let you know you already have them.{' '}
+              will let you know you already have them.
             </p>
           </div>
         </div>
-        <img className="container__benefits__right__img" src={Softwindowright} alt="#" />
+        <div className="benefits__section-right">
+          <img className="benefits__section-img_right" src={Softwindowright} alt="" />
+        </div>
       </div>
     </div>
   );

@@ -8,14 +8,14 @@ import Specialized from './components/specialized';
 import Management from './components/management';
 import Comment from './components/comment';
 import Benefits from './components/benefits';
-/*import Table from './components/table';
-import Expertize from './components/expertize';
+import Table from './components/table';
+// import Expertize from './components/expertize';
 import Calculate from './components/calculate';
 import Featur from './components/featur';
 import Questions from './components/questions';
 import Usercomment from './components/usercomment';
 import Request from './components/request';
-*/
+
 import Footer from './components/footer';
 
 function App() {
@@ -29,14 +29,14 @@ function App() {
       <Management />
       <Comment />
       <Benefits />
-      {/*<Table />
-      <Expertize />
+      <Table />
+      <Benefits />
       <Calculate />
       <Comment />
       <Featur />
       <Questions />
       <Usercomment />
-      <Request />*/}
+      <Request />
       <Footer />
     </div>
   );

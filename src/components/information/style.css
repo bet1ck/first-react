@@ -1,3 +1,8 @@
+.container__inform{
+
+    margin-bottom: 325px;
+}
+
 .information__subtitle{
     display: block;
     text-align: center;
@@ -14,8 +19,9 @@
 }
 
 .information__search{
-   text-align: center;
-   margin-bottom: 154px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .information__search-input{
@@ -50,6 +56,10 @@
 }
 
 @media (max-width:1024px) {
+    .container__inform{
+        margin-bottom: 100px;
+    }
+
     .title__section{
         display: block;
         text-align: center;
@@ -59,6 +69,7 @@
         color: #153051;
         margin-bottom: 50px;
     }
+
 }
 
 @media (max-width:768px) {
@@ -71,9 +82,52 @@
         color: #153051;
         margin-bottom: 50px;
     }
+
+    .information__search{
+        text-align: start;
+    }
+
+    .information__search-input{
+        width: 100%;
+        max-width: 270px;
+        height: 100%;
+        max-height: 48px;
+        background: #FFFFFF;
+        border: 2px solid #FFDB21;
+        border-radius: 4px;
+        padding-left: 18px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 12px;
+        font-weight: 400;
+        font-size: 17px;
+        outline: none;
+    }
+
+    .information__search-btn{
+        width: 130px;
+        height: 48px;
+        background: #FFDB21;
+        border-radius: 4px;
+        border: none;
+        margin-left: -10px;
+        font-weight: 400;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .container__inform{
+        margin-bottom: 60px;
+    }
 }
 
 @media (max-width:425px) {
+
+    .container__inform{
+
+        margin-bottom: 40px;
+    }
+
     .title__section{
         display: block;
         text-align: center;
@@ -98,11 +152,6 @@
     .information__subtitle-link{
         text-decoration: none;
         color: #2f74c8;
-    }
-
-    .information__search{
-        text-align: center;
-        margin-bottom: 66px;
     }
 
     .information__search-input{

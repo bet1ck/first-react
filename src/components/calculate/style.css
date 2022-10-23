@@ -1,27 +1,27 @@
-.container__calculate{
-    margin-bottom: 130px;
-}
-
-.container__calculate__quantity__staff{
+.container__calculator{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 60px;
 }
 
-.container__calculate__quantity__block{
+.calculator__inner{
     width: 100%;
     max-width: 300px;
 }
 
-.container__calculate__quantity__block__subtitle{
+.calculator__inner:first-child{
+    text-align: right;
+}
+
+.calculator__inner-subtitle{
     font-weight: 500;
     font-size: 24px;
     line-height: 34px;
     color: #153051;
 }
 
-.container__calculate__quantity__block__text{
+.calculator__inner-text{
     display: block;
     font-weight: 400;
     font-size: 20px;
@@ -29,55 +29,57 @@
     color: #4D627C;
 }
 
-.calculate__block__left{
-    text-align: right;
+.calculator__block{
+    width: 100%;
+    max-width: 430px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
-.container__calculate__slider{
+.calculator__range{
+    width: 100%;
+    max-width: 430px;
+}
+
+.calculator__btn{
+    display: block;
+    margin: 0 auto;
     width: 430px;
+    height: 58px;
+    left: 745px;
+    top: 441px;
+    background: #FFDB21;
+    border-radius: 4px;
+    border: none;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 24px;
 }
 
-@media (max-width:320px) {
-    .container__calculate{
-        margin-bottom: 32px;
-    }
+.calculator__wrapper{
+    margin-bottom: 130px;
+    text-align: center;
     
-    .container__calculate__quantity__staff{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 57px;
-    }
-    
-    .container__calculate__quantity__block{
-        width: 100%;
-        max-width: 300px;
-    }
-    
-    .container__calculate__quantity__block__subtitle{
-        display: block;
-        text-align: center;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 28px;
-        letter-spacing: 0.44px;
-        color: #153051;
-    }
-    
-    .container__calculate__quantity__block__text{
-        display: block;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 28px;
-        color: #4D627C;
-    }
-    
-    .calculate__block__left{
-        text-align: center;
-    }
-    
-    .container__calculate__slider{
-        width: 288px;
-    }
+    cursor: pointer;
+}
+
+.calculator__wrapper-img{
+    margin-right: 10px;
+}
+
+.calculator__wrapper-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #2F74C8;
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 425px) {
+
 }

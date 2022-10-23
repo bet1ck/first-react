@@ -2,30 +2,30 @@
     margin-bottom: 208px;
 }
 
-.container__table__list{
+.container__table-list{
     display: flex;
     align-items: flex-end;
 }
 
-.table__list__empty{  
+.table__item-title_empty{
     width: 270px;
     height: 124px;
     background: #153051;
-    padding-right: 30px;
 }
 
-.table__list__information__title{
+.table__item-title_any{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 180px;
+    height: 124px;
     background: #153051;
     padding-top: 19px;
     padding-bottom: 18px;
     border-left: 1px solid #6F8196;
 }
 
-.list__img__information{
+.item__title-any_wrapper{
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
@@ -34,24 +34,38 @@
     margin-bottom: 7px;
 }
 
-.table__list__information__title__daminion{
+.item__wrapper-img_first{
+    width: 100%;
+    max-width:31px;
+}
+
+.item__wrapper-img_second{
+    width: 100%;
+    max-width:28px;
+}
+
+.item__wrapper-img_third{
+    width: 100%;
+    max-width:40px;
+}
+
+.table__item-title_logo{
     width: 180px;
-    height: 100%;
-    max-height: 144px;
+    height: 144px;
     background: #1D3E66;
     padding-top: 20px;
-    padding-bottom: 19px;
+    padding-bottom: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-left: 1px solid #6F8196;
 }
 
-.table__list__information__img__logo{
+.item__title-logo_inner{
     position: relative;
 }
 
-.table__list__information__text__daminion{
+.item__title-logo_text{
     display: block;
     text-align: center;
     font-weight: 400;
@@ -60,43 +74,50 @@
     color: #FFFFFF;
 }
 
-.table__list__information__img__daminion{
+.item__title-logo_img{
     width: 100%;
     max-width: 36px;
     margin-bottom: 13px;
 }
 
-.table__list__information__img{
-    display: block;
+.item__title-any_img{
     margin: 0 auto;
     width: 100%;
     max-width: 36px;
-    height: 100%;
-    max-height: 36px;
     margin-bottom: 7px;
 }
 
 
-.list__img__absolut{
+.item__title-logo_icon{
     position: absolute;
     bottom: 12px;
     right: -13px;
 }
 
-.table__list__information__text{
+.item__title-any_text{
     display: block;
     text-align: center;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 0.1px;
-    color: #FFFFFF;
+    color: #CDD9E8;
 }
 
 
-.container__table__list__check{
+.container__table-list_section{
     display: flex;
-    min-height: 70px;
+    height: 70px;
+}
+
+.container__table-list_section_big{
+    display: flex;
+    height: 90px;
+}
+
+.container__table-list_section_huge{
+    display: flex;
+    height: 120px;
 }
 
 .container__table__top{
@@ -107,7 +128,7 @@
     margin-bottom: 30px;
 }
 
-.table__list__check__subtitle{
+.table__list-section_subtitle{
     display: flex;
     align-items: center;
     width: 270px;
@@ -119,11 +140,7 @@
     border-bottom: 1px solid #F0F5FB;
 }
 
-.subtitle__big{
-    height: 110px;
-}
-
-.table__list__check{
+.table__list-check{
     display: flex;
     align-items: center;/*сделать элементам внутри обертку*/
     justify-content: center;
@@ -135,11 +152,9 @@
 .table__list__check__img{
     width: 100%;
     max-width: 32px;
-    height: 100%;
-    max-height: 32px;
 }
 
-.table__list__check__item{
+.table__list-check_inform{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,7 +164,8 @@
     border-bottom: 1px solid #F0F5FB;
 }
 
-.table__list__check__text{
+.list__check-inform_text{
+    display: block;
     text-align: center;
     font-weight: 400;
     font-size: 16px;
@@ -158,24 +174,13 @@
     color: #4D627C;
 }
 
-.table__list__check__block{
+.list__check-inner{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.table__list__check__block__title{
-    display: flex;
-    flex-direction: column;
-}
-
-.table__list__check__subtitle__text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.table__list__btn{
+.table__list-btn{
     width: 100%;
     max-width: 130px;
     height: 100%;
@@ -191,19 +196,11 @@
     cursor: pointer;
 }
 
-.table__list__check__text__strong{
+.list__check-inform_text_strong{
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: #153051;
-}
-
-.table__list__check__text__title{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    letter-spacing: 0.1px;
-    color: #4D627C;
 }
 
 .list__green{
@@ -214,64 +211,155 @@
     color: #F3675E;
 }
 
-@media (max-width: 320px){
+@media (max-width: 1024px){
+
     .container__table{
-        margin-bottom: 30px;
+        margin-bottom: 110px;
     }
 
-    .container__table__content{
-        overflow: scroll;
-    }
-    
-    .container__table__list{
-        display: flex;
-        align-items: flex-end;
-        width: 697px;
-        height: 80px;
-    }
-    
-    .table__list__empty{  
-        width: 167px;
+    .table__item-title_empty{
+        width: 276px;
+        height: 124px;
         background: #153051;
-        padding-right: 30px;
+    }
+
+    .item__title-logo_text{
+        display: block;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
     }
     
-    .table__list__information__title{
+    .item__title-any_text{
+        display: block;
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+    }
+    
+    .table__list-section_subtitle{
+        display: flex;
+        align-items: center;
+        width: 270px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        padding-left: 30px;
+        border-left: 1px solid #F0F5FB;
+        border-bottom: 1px solid #F0F5FB;
+    }
+
+    .list__check-inform_text{
+        display: block;
+        text-align: center;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 0.1px;
+        color: #4D627C;
+    }
+    
+    .table__list-btn{
+        width: 100%;
+        max-width: 130px;
+        height: 100%;
+        max-height: 46px;
+        background: #FFDB21;
+        border-radius: 4px;
+        border: none;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: #153051;
+        letter-spacing: 0.1px;
+        cursor: pointer;
+    }
+
+    .list__check-inform_text_strong{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #153051;
+    }
+}
+
+@media (max-width: 768px){
+    .container__table{
+        margin-bottom: 90px;
+    }
+    
+    .container__table-list{
+        display: flex;
+    }
+    
+    .table__item-title_empty{
+        width: 174px;
+        height: 80px;
+        background: #153051;
+    }
+    
+    .table__item-title_any{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 106px;
+        width: 111px;
+        height: 80px;
         background: #153051;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 11px;
+        padding-bottom: 15px;
         border-left: 1px solid #6F8196;
     }
     
-    .list__img__information{
+    .item__title-any_wrapper{
         display: flex;
         justify-content: space-between;
-        padding-top: 10px;
-        padding-left: 28px;
-        padding-right: 28px;
-        margin-bottom: 7px;
+        padding-top: 5px;
+        padding-left: 14px;
+        padding-right: 14px;
+        margin-bottom: 13px;
     }
     
-    .table__list__information__title__daminion{
-        width: 106px;
+    .item__wrapper-img_first{
+        width: 100%;
+        max-width: 19px;
+    }
+    
+    .item__wrapper-img_second{
+        width: 100%;
+        max-width: 17px;
+    }
+    
+    .item__wrapper-img_third{
+        width: 100%;
+        max-width:24px;
+    }
+    
+    .table__item-title_logo{
+        width: 111px;
+        height: 80px;
         background: #1D3E66;
         padding-top: 12px;
-        padding-bottom: 7px;
+        padding-bottom: 17px;
         display: flex;
         flex-direction: column;
         align-items: center;
         border-left: 1px solid #6F8196;
     }
     
-    .table__list__information__img__logo{
+    .item__title-logo_inner{
         position: relative;
+        width: 100%;
+        max-width: 22px;
+        height: 100%;
+        max-height: 29px;
     }
     
-    .table__list__information__text__daminion{
+    .item__title-logo_text{
         display: block;
         text-align: center;
         font-weight: 400;
@@ -280,46 +368,51 @@
         color: #FFFFFF;
     }
     
-    .table__list__information__img__daminion{
+    .item__title-logo_img{
         width: 100%;
         max-width: 22px;
         margin-bottom: 7px;
     }
     
-    .table__list__information__img{
-        display: block;
+    .item__title-any_img{
         margin: 0 auto;
-        width: 25px;
-        height: 25px;
-        margin-bottom: 7px;
-    }
-
-    .table__list__information__img__mini{
-        width: 16px;
+        width: 100%;
+        max-width: 22px;
+        margin-bottom: 12px;
     }
     
-    
-    .list__img__absolut{
+    .item__title-logo_icon{
         position: absolute;
-        width: 14px;
-        bottom: 10px;
-        right: -5px;
+        bottom: 7px;
+        right: -6px;
+        width: 100%;
+        max-width: 14px;
     }
     
-    .table__list__information__text{
+    .item__title-any_text{
         display: block;
         text-align: center;
         font-weight: 400;
         font-size: 11px;
         line-height: 13px;
+        letter-spacing: 0.1px;
         color: #FFFFFF;
     }
     
     
-    .container__table__list__check{
+    .container__table-list_section{
         display: flex;
-        width: 697px;
-        min-height: 50px;
+        height: 50px;
+    }
+    
+    .container__table-list_section_big{
+        display: flex;
+        height: 60px;
+    }
+    
+    .container__table-list_section_huge{
+        display: flex;
+        height: 70px;
     }
     
     .container__table__top{
@@ -327,13 +420,13 @@
     }
     
     .container__table__bottom{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     
-    .table__list__check__subtitle{
+    .table__list-section_subtitle{
         display: flex;
         align-items: center;
-        width: 167px;
+        width: 245px;
         font-weight: 400;
         font-size: 12px;
         line-height: 16px;
@@ -342,88 +435,75 @@
         border-bottom: 1px solid #F0F5FB;
     }
     
-    .subtitle__big{
-        height: 70px;
-    }
-    
-    .table__list__check{
+    .table__list-check{
         display: flex;
         align-items: center;/*сделать элементам внутри обертку*/
         justify-content: center;
-        width: 106px;
+        width: 160px;
         border-left: 1px solid #F0F5FB;
         border-bottom: 1px solid #F0F5FB;
     }
     
     .table__list__check__img{
-        width: 18px;
-        height: 18px;
+        width: 100%;
+        max-width: 24px;
     }
     
-    .table__list__check__item{
+    .table__list-check_inform{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 106px;
+        width: 160px;
         border-left: 1px solid #F0F5FB;
         border-right: 1px solid #F0F5FB;
         border-bottom: 1px solid #F0F5FB;
     }
     
-    .table__list__check__text{
-        font-weight: 400;
-        font-size: 11px;
-        line-height: 13px;
-        color: #4D627C;
-    }
-    
-    .table__list__check__block{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .table__list__check__subtitle__text{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .table__list__btn{
-        width: 100%;
-        max-width: 83px;
-        height: 100%;
-        max-height: 40px;
-        background: #FFDB21;
-        border-radius: 4px;
-        border: none;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 16px;
-        color: #153051;
-        cursor: pointer;
-    }
-    
-    .table__list__check__text__title{
+    .list__check-inform_text{
+        display: block;
+        text-align: center;
         font-weight: 400;
         font-size: 11px;
         line-height: 13px;
         letter-spacing: 0.1px;
-        color: #153051;
+        color: #4D627C;
     }
     
-    .table__list__check__text__strong{
+    .list__check-inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list__check-img{
+        width: 100%;
+        max-width: 18px;
+    }
+    
+    .table__list-btn{
+        width: 100%;
+        max-width: 100px;
+        height: 100%;
+        max-height: 36px;
+        background: #FFDB21;
+        border-radius: 4px;
+        border: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #153051;
+        letter-spacing: 0.1px;
+        cursor: pointer;
+    }
+    
+    .list__check-inform_text_strong{
         font-weight: 400;
         font-size: 12px;
         line-height: 16px;
         color: #153051;
     }
+}
 
-    .list__green{
-        color: #27AE60;
-    }
-    
-    .list__red{
-        color: #F3675E;
-    }
+@media (max-width: 425px){
+
 }

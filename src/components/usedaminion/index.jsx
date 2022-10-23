@@ -38,9 +38,9 @@ const UseDaminion = () => {
             </li>
           </ul>
         </div>
-
-        <img className="presentation__content-right_img" src={Phoneandcomp} alt="#" />
-
+        <div className="presentation__content-right">
+          <img className="presentation__content-right_img" src={Phoneandcomp} alt="#" />
+        </div>
       </div>
     </div>
   );
